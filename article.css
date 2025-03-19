@@ -8,11 +8,12 @@ body {
 
 #header img {
     border-radius: 100%;
-    width: 148px;
+    width: 271px;
     display: block;
-    margin: 73px auto 98px;
+    margin: auto;
 
 }
+
 
 #img-container  img {
     width: 70%;

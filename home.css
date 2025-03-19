@@ -9,9 +9,9 @@ body {
 
 #header img {
     border-radius: 100%;
-    width: 148px;
+    width: 271px;
     display: block;
-    margin: 73px auto 30px;
+    margin: auto;
 
 }
 
@@ -39,6 +39,13 @@ body {
     opacity: 80%;
 }
 
+/* replace with article > img */
+#articles img {
+    width: 100%; 
+    height: 17vw;
+}
+
+
 article {
     display: inline-block;
     width: 49.3%;
@@ -52,10 +59,6 @@ article:hover {
 
 
 
-#articles img {
-    width: 100%; 
-    height: 17vw;
-}
 
 .article-title {
     display: block;
@@ -69,7 +72,7 @@ a, ul{
 
 
 @media only screen and (max-width: 600px) {
-    #articles {
+    #articles, #featured {
         width: 90%
     }
 
@@ -77,9 +80,6 @@ a, ul{
         width: 70%;
     }
 
-    #featured {
-        width: 90%;
-    }
 
   }
 

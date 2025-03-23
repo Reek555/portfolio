@@ -48,7 +48,7 @@ body {
 
 article {
     display: inline-block;
-    width: 49.3%;
+    width: 50%;
     box-sizing: border-box;
     padding: 7px;
 }
@@ -70,6 +70,10 @@ a, ul{
     color:#cc8500
 }
 
+
+.bordered {
+    border: solid #9E9E9E 1px;
+}
 
 @media only screen and (max-width: 600px) {
     #articles, #featured {

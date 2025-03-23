@@ -34,6 +34,11 @@ a {
 }
 
 
+.bordered {
+    border: solid #9E9E9E 1px;
+}
+
+
 @media only screen and (max-width: 750px) {
     #img-container  img {
         width: 90%
